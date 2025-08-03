@@ -16,14 +16,7 @@
     </style>
 </head>
 <body>
-    <script>
-        // Einfacher Passwortschutz (nur Client-Seite)
-        const pass = prompt("Passwort eingeben:");
-        if(pass !== "meinpasswort123") { 
-            document.body.innerHTML = "<h1>Zugriff verweigert</h1>";
-            throw new Error("Falsches Passwort");
-        }
-    </script>
+   
 
     <h1>Meine private Galerie</h1>
     <div class="gallery" id="gallery"></div>
